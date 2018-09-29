@@ -1,0 +1,231 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Knewave|Londrina+Sketch|Love+Ya+Like+A+Sister|Marcellus+SC");
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch|Comfortaa|Homemade+Apple|K2D|Kalam|Mali");
+
+body {
+  background: url(../images/background2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*Main page styling*/
+
+/*Nav bar*/
+.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand {
+  color: #23363a;
+  padding-left: 5px;
+  font-family: "Marcellus SC", serif;
+}
+nav {
+  background-image: url(../images/subtle-stone-texture-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Profile picture and main div styling*/
+.mainProfile {
+  border-radius: 50%;
+  height: 15rem;
+  border: 3px solid #23363a;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainHeadline {
+  text-align: center;
+  font-family: "Marcellus SC", serif;
+  color: #d8d3c4;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.topRow {
+  margin-top: 6rem;
+}
+.midRow {
+  margin-top: 15px;
+}
+.test {
+  display: block;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background: rgba(148, 149, 150, 0.5);
+  border-radius: 5px;
+}
+h1 {
+  font-family: "Homemade Apple", cursive;
+  padding-top: 40px;
+  padding-left: 15px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/*Social media and page navigation buttons*/
+.socialButtonsDiv {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95px;
+}
+.gitHubLink {
+  height: 45px;
+  width: 45px;
+  background-color: #24292e;
+  border-radius: 15%;
+  border: 1px black solid;
+  float: left;
+}
+.gitHubButton {
+  font-size: 30px;
+  padding: 5px 5px 5px 7.5px;
+  width: 45px;
+  text-align: center;
+  color: white;
+}
+.linkedIn {
+  height: 45px;
+  width: 45px;
+  background-color: #0274b3;
+  border-radius: 15%;
+  border: 0.05px black solid;
+  float: right;
+}
+.linkedInButton {
+  color: white;
+  font-size: 30px;
+  padding: 5px 5px 5px 9px;
+  text-align: center;
+}
+.navigate-buttons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.navigateButton {
+  background-color: #4e3038;
+  color: whitesmoke;
+  font-family: "IM Fell English SC", serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*Styling for About Me Section */
+.profile2 {
+  padding: 20px;
+}
+p.aboutMe {
+  font-family: "Kalam", cursive;
+  font-size: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*Experience image styling*/
+.experienceImg {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/*Profile Carousel Styling*/
+.carouselImage {
+  height: auto;
+  padding: 0rem 8rem 8rem 8rem;
+}
+.carousel {
+  height: auto;
+}
+
+/*Contact Information*/
+.contactButton {
+  background-color: #2f343d;
+  height: 45px;
+  font-size: 30px;
+  color: white;
+  width: 200px;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+.contactEmail {
+  color: white;
+}
+.contactLinkedIn {
+  color: white;
+}
+.contactGithub {
+  color: white;
+}
+
+#Contact {
+  margin-bottom: 8rem;
+}
+
+/*Link styling*/
+a.navigateButton:hover {
+  color: #24292e;
+  text-decoration: none;
+  background: rgba(148, 149, 150, 0.5);
+}
+a:hover {
+  text-decoration: none;
+  color: #acc9b7;
+}
+
+@media only screen and (max-width: 635px) {
+  /* For mobile phones: */
+
+  .navigateButton {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .carouselImage {
+    height: auto;
+    padding: 0rem;
+  }
+  p.aboutMe {
+    font-size: 15px;
+  }
+  .experienceImg {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  /* For mobile phones: */
+  .carouselImage {
+    height: auto;
+    padding: 0rem;
+  }
+  p.aboutMe {
+    font-size: 15px;
+  }
+  .experienceImg {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+}
